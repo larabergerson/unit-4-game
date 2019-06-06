@@ -11,7 +11,7 @@ counter += increments;
     alert("Your score:" + counter);
 
 
-for (var i = 0; i < numberChoices.length; i++){
+for (var i = 0; i < numberChoices.length; i++){}
 // var crystals = {
 //     blue : 4,
 //     multi : 9,
@@ -19,7 +19,7 @@ for (var i = 0; i < numberChoices.length; i++){
 //     rainbow : 7
 //  };
 
-}
+
 
 
 
