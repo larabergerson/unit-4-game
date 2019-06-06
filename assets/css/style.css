@@ -1,20 +1,24 @@
-/* .body{
-    margin-left: 100px;
-} */
-.gems{
-    height: 250px;
-    width: 250px;
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
 }
+
+
+
+
+/* .body{
+    margin: auto;
+    background-color: lightpink;
+} */
+
 /* set heads and instructions */
 
 /* format page */
 
 /* set height/width for images */
 
-/* .gem-images {
-    width: 350px;
-    height: 350px;
-} */
+
 /* set counter box */
 
 

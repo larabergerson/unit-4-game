@@ -1,5 +1,6 @@
 var targetNumber = 61;
     $(".match").text(targetNumber);
+    console.log(targetNumber)
 
 
 var counter = 0
@@ -7,10 +8,10 @@ var numberChoices = [4, 9, 15, 7];
 
 for (var i = 0; i < numberChoices.length; i++){
 
-    var aquaGem ()
+
 }
 
-$(".gems").on("click", function(){
+$(".gems-images").on("click", function(){
     alert("working");
 
 });

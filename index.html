@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crystal Game!</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-    <link rel="stylesheet" type="style/css" href="/assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href=./assets/css/reset.css>
+    <link rel="stylesheet" type="text/css" href=./assets/css/style.css>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type=text/javascript src="/assets/javascript/game.js"> </script>
-    
+    <title>Crystal Game!</title>
 </head>
 <body>
-          
+        
     <!-- introduction  and rules-->
     <div>
         <h1>Crystal Collector!</h1> <span id = "game-header"></span> </span>
@@ -31,35 +29,43 @@
         
             <h2>May the odds be ever in your favor!</h2>
 
-            <div class = "gems">
-                    <img class="aquaGem" src="./assets/images/aumq.jpg" alt= "crystals">
-                    <img class="multiGem" src="./assets/images/multicolorcrystal.jpg" alt= "crystals">
-                    <img class="purpleGem" src="./assets/images/purplecrystal.jpg" alt= "crystals">
-                    <img class="rainbowGem" src="./assets/images/rainbowcrystal.jpg" alt= "crystals">
+            <div class = "gems-images container">
+                    <img class="aquaGem box" src="./assets/images/aumq.jpg" alt= "crystals">
+                    <img class="multiGem box" src=./assets/images/multicolorcrystal.jpg alt= "crystals">
+                    <img class="purpleGem box" src=./assets/images/purplecrystal.jpg alt= "crystals">
+                    <img class="rainbowGem box" src=./assets/images/rainbowcrystal.jpg alt= "crystals">
              </div>
 
+             <div class = "score">Your total score: 
+                 <div id= "options-box"> 
+                     <div id = "wins"> Total wins: </div>
+                     <div id = "lose"> Total lossesd: </div>
+                     </div>
+             </div>
+</div>
         <!-- number to guess -->
-   
+        <script type="text/javascript" src="./assets/javascript/game.js">
         <div class = "match"> Match this number: </div>
         
-    
-        <!-- container for images  -->
-        <!-- <div class="gems"> 
+
+        // <!-- container for images  -->
+       <div>
+        <div class="gems"> 
         //     <button id="gem-aqua" class="gem btn-gem" value="4" ></button>
         //     <button id="gem-multi" class="gem btn-gem" value="9"></button>
         //     <button id="gem-purple" class="gem btn-gem" value="15"></button>
         //     <button id="gem-rainbow" class="gem btn-gem" value="7"> </button>
-        // </div> -->
+       </div> 
 
-    <!-- containers for results -->
+
     <div class= "userscore:">Your total score is: </div>
             <div class = "outcomes">
                 <div id = "wins"> Wins: </div>
                 <div id = "losses">Losses: </div>
             </div>
-    </div>
+    
 
 </div>
-
+</script>
 </body>
 </html>
