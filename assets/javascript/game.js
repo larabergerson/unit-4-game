@@ -28,41 +28,13 @@ $(".aquaGem").on("click", function() {
     });
   });
 });
-
+// condition - if user matches target number tell them they won and increment number of wins
 if (counter === targetNumber) {
   alert("Good Job! You Win!" + "#wins" + 1);
-} else counter > targetNumber;
+}
+// if user goes over the target number tell them they lose and try again and increment # of losses by 1
+else counter > targetNumber;
 {
   $(".matchNum").reset(counter);
   alert("You lose, try again. " + "#losses" + 1);
 }
-
-// var gemImagesVal = $(numberChoices[i]);
-// console.log(gemImagesVal);
-
-// $("gems").attr("data-vals", numberChoices[i]);
-
-// assign gemimages a value
-// gemImages.attr("data-gemValue", numberChoices[i]);
-
-// var gemValue = $(this).attr("data-gemValue");
-
-// gemValue = parseInt(gemValue);
-
-// counter += gemValue;
-// alert("score: " + counter);
-
-// console.log(numberChoices[i]);
-//   $(".box").attr("data-gemvalue", numberChoices[i]);
-// $(".box").append(numberChoices);
-// console.log();
-
-//   gemValue = parseInt(gemValue);
-
-//   counter += gemValue;
-//   alert("score: " + counter);
-// });
-
-// var scoreTotals = 0;
-// var userWins = 0;
-// var userLose = 0;
